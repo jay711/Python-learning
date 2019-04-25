@@ -5,3 +5,6 @@
     sorted用法：sorted(iterable,cmp=None,key=None,reverse=False)
     sort用法：sort(cmp=None,key=None,reverse=False)
    <https://www.cnblogs.com/brad1994/p/6697196.html>
+### str.isalpha()和str.lower()函数
+    str.isalpha()：检测字符串是否只由字符组成，如果字符串至少有一个字符并且所有字符都是字母则返回 True,否则返回 False。
+    str.lower()：转换字符串中所有大写字符为小写
