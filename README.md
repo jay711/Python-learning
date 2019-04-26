@@ -8,3 +8,20 @@
 ### str.isalpha()和str.lower()函数
     str.isalpha()：检测字符串是否只由字符组成，如果字符串至少有一个字符并且所有字符都是字母则返回 True,否则返回 False。
     str.lower()：转换字符串中所有大写字符为小写
+### enumerate()函数
+    如果对一个列表，既要遍历索引又要遍历元素时，首先可以这样写：
+```python
+list1 = ["这", "是", "一个", "测试"]
+for i in range (len(list1)):
+    print (i,list1[i])
+```
+    用enumerate()函数，可以写成：
+```python
+list1 = ["这", "是", "一个", "测试"]
+for index,item in enumerate(list1):
+    print(index,item)
+```
+    enumerate 还可以接收第二个参数，用于指定索引起始值.
+    
+    
+    
