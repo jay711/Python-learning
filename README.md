@@ -60,3 +60,9 @@ for index,item in enumerate(list1):
     str.rjust(width[, fillchar])
     width -- 指定填充指定字符后中字符串的总长度；
     fillchar -- 填充的字符，默认为空格。
+### split()函数
+    Python split() 通过指定分隔符对字符串进行切片，如果参数 num 有指定值，则分隔 num+1 个子字符串。
+    split() 方法语法：
+    str.split(str="", num=string.count(str)).
+    参数：str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
+         num -- 分割次数。默认为 -1, 即分隔所有。
