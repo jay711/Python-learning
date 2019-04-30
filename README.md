@@ -66,3 +66,9 @@ for index,item in enumerate(list1):
     str.split(str="", num=string.count(str)).
     参数：str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
          num -- 分割次数。默认为 -1, 即分隔所有。
+### map()函数
+    map（）的使用方法形如map(f(x),Itera)，它有两个参数，第一个参数为某个函数，第二个为可迭代对象。
+    注意：python3中map()返回的是一个object，因为map()转变成了迭代器来节约空间，返回的是可迭代对象。
+    如果需要list可以直接用list(……)来强制返回一个列表。
+<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1835253160,2152546506&fm=173&app=25&f=JPEG?w=539&h=453&s=A8C2B1409AE4876C4C75E40F0100E0C3" width="208px" height="242px" alt="map()函数">
+
